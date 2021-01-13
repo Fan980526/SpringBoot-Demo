@@ -11,4 +11,9 @@ public class K8SController {
     public String k8s(){
         return "hello K8s. I'm xiaodai ~";
     }
+
+    @GetMapping("/hello")
+    public String hello(){
+        return "hello jenkins cicd";
+    }
 }
